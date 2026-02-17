@@ -1,0 +1,23 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient definition -->
+  <defs>
+      <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+          <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+      </linearGradient>
+      <linearGradient id="taglineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+      </linearGradient>
+  </defs>
+
+  <!-- White background -->
+  <rect width="800" height="200" fill="#ffffff"/>
+
+  <!-- Title text -->
+  <text x="400" y="90" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="url(#headerGradient)">Data Engineering with Databricks</text>
+
+  <!-- Tagline -->
+  <text x="400" y="140" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="url(#taglineGradient)">Delta Live Tables | Medallion Architecture | Streaming ETL</text>
+</svg>

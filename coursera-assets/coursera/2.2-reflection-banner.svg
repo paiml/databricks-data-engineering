@@ -1,0 +1,37 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  <circle cx="350" cy="420" r="270" fill="#36b37e" opacity="0.05"/>
+  <circle cx="1560" cy="340" r="260" fill="#4a9eff" opacity="0.05"/>
+  <circle cx="900" cy="780" r="180" fill="#ffab00" opacity="0.04"/>
+  <g id="filter">
+    <polygon points="260,380 460,380 390,500 390,580 330,580 330,500" fill="#36b37e" opacity="0.1" stroke="#00875a" stroke-width="5" stroke-linejoin="round"/>
+    <circle cx="320" cy="420" r="10" fill="#ff5630" opacity="0.3"/>
+    <circle cx="400" cy="415" r="8" fill="#00875a" opacity="0.4"/>
+    <circle cx="360" cy="430" r="12" fill="#4a9eff" opacity="0.3"/>
+    <circle cx="360" cy="550" r="6" fill="#00875a" opacity="0.6"/>
+  </g>
+  <g id="sparkle">
+    <line x1="960" y1="380" x2="960" y2="560" stroke="#ffab00" stroke-width="5" stroke-linecap="round"/>
+    <line x1="880" y1="470" x2="1040" y2="470" stroke="#ffab00" stroke-width="5" stroke-linecap="round"/>
+    <line x1="900" y1="410" x2="1020" y2="530" stroke="#ffab00" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    <line x1="1020" y1="410" x2="900" y2="530" stroke="#ffab00" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="960" cy="470" r="20" fill="#ffab00" opacity="0.2"/>
+  </g>
+  <g id="trend">
+    <rect x="1410" y="360" width="300" height="240" rx="14" fill="#4a9eff" opacity="0.06" stroke="#4a9eff" stroke-width="4"/>
+    <polyline points="1440,560 1500,520 1560,540 1620,460 1680,400" fill="none" stroke="#00875a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1440" cy="560" r="6" fill="#00875a" opacity="0.5"/>
+    <circle cx="1500" cy="520" r="6" fill="#00875a" opacity="0.5"/>
+    <circle cx="1560" cy="540" r="6" fill="#00875a" opacity="0.5"/>
+    <circle cx="1620" cy="460" r="6" fill="#00875a" opacity="0.5"/>
+    <circle cx="1680" cy="400" r="6" fill="#00875a" opacity="0.5"/>
+  </g>
+  <!-- GRID PROTOCOL MANIFEST
+  template: Icon Banner
+  grid_cells_used: 0-15,0-8
+  font_sizes: []
+  min_font_size: n/a
+  text_elements: 0
+  palette_colors: [#ffffff, #4a9eff, #36b37e, #00875a, #ffab00, #ff5630]
+  -->
+</svg>

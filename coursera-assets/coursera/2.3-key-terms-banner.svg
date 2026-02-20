@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  <circle cx="360" cy="400" r="260" fill="#ffab00" opacity="0.06"/>
+  <circle cx="1560" cy="350" r="280" fill="#4a9eff" opacity="0.04"/>
+  <circle cx="900" cy="750" r="200" fill="#9f8fef" opacity="0.04"/>
+  <g id="gold-bar">
+    <polygon points="280,520 360,400 440,400 440,520" fill="#ffab00" opacity="0.15" stroke="#f38b00" stroke-width="5" stroke-linejoin="round"/>
+    <polygon points="280,520 360,400 440,400 360,520" fill="#ff9d1a" opacity="0.1"/>
+    <line x1="320" y1="460" x2="400" y2="460" stroke="#f38b00" stroke-width="3" opacity="0.3"/>
+    <line x1="310" y1="490" x2="410" y2="490" stroke="#f38b00" stroke-width="3" opacity="0.3"/>
+  </g>
+  <g id="gear">
+    <circle cx="960" cy="480" r="90" fill="#9f8fef" opacity="0.1" stroke="#9f8fef" stroke-width="5"/>
+    <circle cx="960" cy="480" r="50" fill="none" stroke="#9f8fef" stroke-width="5"/>
+    <line x1="960" y1="380" x2="960" y2="410" stroke="#9f8fef" stroke-width="8" stroke-linecap="round"/>
+    <line x1="960" y1="550" x2="960" y2="580" stroke="#9f8fef" stroke-width="8" stroke-linecap="round"/>
+    <line x1="860" y1="480" x2="890" y2="480" stroke="#9f8fef" stroke-width="8" stroke-linecap="round"/>
+    <line x1="1030" y1="480" x2="1060" y2="480" stroke="#9f8fef" stroke-width="8" stroke-linecap="round"/>
+    <line x1="893" y1="413" x2="915" y2="435" stroke="#9f8fef" stroke-width="7" stroke-linecap="round"/>
+    <line x1="1005" y1="525" x2="1027" y2="547" stroke="#9f8fef" stroke-width="7" stroke-linecap="round"/>
+    <line x1="1005" y1="413" x2="1027" y2="435" stroke="#9f8fef" stroke-width="7" stroke-linecap="round"/>
+    <line x1="893" y1="525" x2="915" y2="547" stroke="#9f8fef" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g id="biz-chart">
+    <rect x="1410" y="360" width="300" height="240" rx="14" fill="#4a9eff" opacity="0.06" stroke="#4a9eff" stroke-width="4"/>
+    <rect x="1440" y="500" width="40" height="70" rx="4" fill="#ffab00" opacity="0.3"/>
+    <rect x="1500" y="460" width="40" height="110" rx="4" fill="#ffab00" opacity="0.4"/>
+    <rect x="1560" y="420" width="40" height="150" rx="4" fill="#f38b00" opacity="0.5"/>
+    <rect x="1620" y="380" width="40" height="190" rx="4" fill="#f38b00" opacity="0.6"/>
+    <polyline points="1460,490 1520,450 1580,410 1640,370" fill="none" stroke="#ff5630" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- GRID PROTOCOL MANIFEST
+  template: Icon Banner
+  grid_cells_used: 0-15,0-8
+  font_sizes: []
+  min_font_size: n/a
+  text_elements: 0
+  palette_colors: [#ffffff, #4a9eff, #ffab00, #f38b00, #ff9d1a, #9f8fef, #ff5630]
+  -->
+</svg>

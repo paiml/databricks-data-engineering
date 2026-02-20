@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  <circle cx="350" cy="380" r="260" fill="#00c7e6" opacity="0.06"/>
+  <circle cx="1550" cy="350" r="300" fill="#9f8fef" opacity="0.05"/>
+  <circle cx="900" cy="750" r="200" fill="#7ee787" opacity="0.04"/>
+  <g id="pipeline">
+    <polygon points="260,340 460,340 400,480 400,580 320,580 320,480" fill="#4a9eff" opacity="0.12" stroke="#4a9eff" stroke-width="5" stroke-linejoin="round"/>
+    <circle cx="330" cy="390" r="18" fill="#00875a" opacity="0.4"/>
+    <circle cx="400" cy="380" r="14" fill="#ff5630" opacity="0.35"/>
+    <circle cx="365" cy="410" r="11" fill="#ffab00" opacity="0.4"/>
+    <polyline points="360,490 360,560" fill="none" stroke="#4a9eff" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g id="declarative">
+    <polyline points="860,360 810,480 860,600" fill="none" stroke="#9f8fef" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="1060,360 1110,480 1060,600" fill="none" stroke="#9f8fef" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="880" y1="560" x2="1040" y2="400" stroke="#b8acff" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g id="autoloader">
+    <circle cx="1560" cy="470" r="140" fill="#00c7e6" opacity="0.1" stroke="#00b8d9" stroke-width="5"/>
+    <path d="M1490,500 Q1525,420 1560,500 Q1595,420 1630,500" fill="none" stroke="#00b8d9" stroke-width="6" stroke-linecap="round"/>
+    <polyline points="1525,440 1560,400 1595,440" fill="none" stroke="#00875a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="1560" y1="400" x2="1560" y2="530" stroke="#00875a" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <!-- GRID PROTOCOL MANIFEST
+  template: Icon Banner
+  grid_cells_used: 0-15,0-8
+  font_sizes: []
+  min_font_size: n/a
+  text_elements: 0
+  palette_colors: [#ffffff, #4a9eff, #00c7e6, #00b8d9, #9f8fef, #b8acff, #00875a, #ff5630, #ffab00, #7ee787]
+  -->
+</svg>

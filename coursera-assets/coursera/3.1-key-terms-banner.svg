@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  <circle cx="360" cy="420" r="270" fill="#00c7e6" opacity="0.05"/>
+  <circle cx="1560" cy="350" r="280" fill="#36b37e" opacity="0.04"/>
+  <circle cx="960" cy="150" r="180" fill="#b8acff" opacity="0.04"/>
+  <g id="cdc-flow">
+    <circle cx="300" cy="420" r="70" fill="#00c7e6" opacity="0.12" stroke="#00b8d9" stroke-width="5"/>
+    <polyline points="380,420 440,420" fill="none" stroke="#00b8d9" stroke-width="6" stroke-linecap="round"/>
+    <polyline points="420,400 440,420 420,440" fill="none" stroke="#00b8d9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="510" cy="420" r="70" fill="#4a9eff" opacity="0.12" stroke="#4a9eff" stroke-width="5"/>
+    <polyline points="300,350 300,310 510,310 510,350" fill="none" stroke="#9f8fef" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 6"/>
+  </g>
+  <g id="pipeline-chain">
+    <rect x="830" y="400" width="100" height="80" rx="12" fill="#ffab00" opacity="0.15" stroke="#ffab00" stroke-width="4"/>
+    <polyline points="930,440 970,440" fill="none" stroke="#30363d" stroke-width="5" stroke-linecap="round"/>
+    <polyline points="955,425 970,440 955,455" fill="none" stroke="#30363d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="970" y="400" width="100" height="80" rx="12" fill="#36b37e" opacity="0.15" stroke="#36b37e" stroke-width="4"/>
+    <polyline points="1070,440 1110,440" fill="none" stroke="#30363d" stroke-width="5" stroke-linecap="round"/>
+    <polyline points="1095,425 1110,440 1095,455" fill="none" stroke="#30363d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1110" y="400" width="100" height="80" rx="12" fill="#4a9eff" opacity="0.15" stroke="#4a9eff" stroke-width="4"/>
+  </g>
+  <g id="event-log">
+    <rect x="1420" y="360" width="280" height="220" rx="14" fill="#36b37e" opacity="0.08" stroke="#36b37e" stroke-width="4"/>
+    <line x1="1450" y1="410" x2="1670" y2="410" stroke="#36b37e" stroke-width="3" opacity="0.3"/>
+    <line x1="1450" y1="450" x2="1670" y2="450" stroke="#36b37e" stroke-width="3" opacity="0.3"/>
+    <line x1="1450" y1="490" x2="1670" y2="490" stroke="#36b37e" stroke-width="3" opacity="0.3"/>
+    <line x1="1450" y1="530" x2="1670" y2="530" stroke="#36b37e" stroke-width="3" opacity="0.3"/>
+    <circle cx="1460" cy="410" r="6" fill="#00875a" opacity="0.5"/>
+    <circle cx="1460" cy="450" r="6" fill="#00875a" opacity="0.5"/>
+    <circle cx="1460" cy="490" r="6" fill="#ffab00" opacity="0.5"/>
+    <circle cx="1460" cy="530" r="6" fill="#ff5630" opacity="0.5"/>
+  </g>
+  <!-- GRID PROTOCOL MANIFEST
+  template: Icon Banner
+  grid_cells_used: 0-15,0-8
+  font_sizes: []
+  min_font_size: n/a
+  text_elements: 0
+  palette_colors: [#ffffff, #4a9eff, #00c7e6, #00b8d9, #36b37e, #00875a, #ffab00, #ff5630, #9f8fef, #b8acff, #30363d]
+  -->
+</svg>

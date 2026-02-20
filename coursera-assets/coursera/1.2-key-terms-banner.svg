@@ -1,0 +1,29 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  <circle cx="350" cy="380" r="260" fill="#00c7e6" opacity="0.06"/>
+  <circle cx="1550" cy="350" r="300" fill="#ff5630" opacity="0.04"/>
+  <circle cx="800" cy="150" r="180" fill="#7ee787" opacity="0.04"/>
+  <g id="shield">
+    <path d="M360,336 L468,381 L468,498 Q360,606 252,498 L252,381 Z" fill="#00c7e6" opacity="0.15" stroke="#00b8d9" stroke-width="5"/>
+    <polyline points="306,471 342,516 423,435" fill="none" stroke="#00875a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g id="funnel">
+    <polygon points="840,380 1080,380 985,500 985,590 935,590 935,500" fill="#ffab00" opacity="0.12" stroke="#ffab00" stroke-width="5" stroke-linejoin="round"/>
+    <circle cx="920" cy="430" r="15" fill="#ff5630" opacity="0.3"/>
+    <circle cx="1010" cy="425" r="12" fill="#00875a" opacity="0.3"/>
+    <circle cx="960" cy="440" r="10" fill="#4a9eff" opacity="0.3"/>
+  </g>
+  <g id="warning">
+    <polygon points="1560,370 1680,560 1440,560" fill="#ff5630" opacity="0.1" stroke="#ff5630" stroke-width="5" stroke-linejoin="round"/>
+    <line x1="1560" y1="440" x2="1560" y2="500" stroke="#ff5630" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="1560" cy="530" r="8" fill="#ff5630"/>
+  </g>
+  <!-- GRID PROTOCOL MANIFEST
+  template: Icon Banner
+  grid_cells_used: 0-15,0-8
+  font_sizes: []
+  min_font_size: n/a
+  text_elements: 0
+  palette_colors: [#ffffff, #4a9eff, #00c7e6, #00b8d9, #00875a, #ffab00, #ff5630, #7ee787]
+  -->
+</svg>

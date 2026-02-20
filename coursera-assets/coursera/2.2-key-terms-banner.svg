@@ -1,0 +1,31 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  <circle cx="320" cy="420" r="250" fill="#36b37e" opacity="0.05"/>
+  <circle cx="1580" cy="300" r="270" fill="#a5d6ff" opacity="0.06"/>
+  <circle cx="960" cy="780" r="180" fill="#ffab00" opacity="0.04"/>
+  <g id="magnifier">
+    <circle cx="340" cy="450" r="120" fill="#36b37e" opacity="0.08" stroke="#00875a" stroke-width="6"/>
+    <line x1="425" y1="535" x2="510" y2="620" stroke="#00875a" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="340" cy="450" r="60" fill="none" stroke="#36b37e" stroke-width="3" opacity="0.3"/>
+  </g>
+  <g id="cleaning">
+    <rect x="910" y="360" width="100" height="260" rx="12" fill="#4a9eff" opacity="0.1" stroke="#4a9eff" stroke-width="4"/>
+    <path d="M920,360 Q960,310 1000,360" fill="#a5d6ff" opacity="0.2" stroke="#4a9eff" stroke-width="4"/>
+    <line x1="940" y1="400" x2="940" y2="580" stroke="#4a9eff" stroke-width="3" opacity="0.3"/>
+    <line x1="960" y1="390" x2="960" y2="590" stroke="#4a9eff" stroke-width="3" opacity="0.3"/>
+    <line x1="980" y1="400" x2="980" y2="580" stroke="#4a9eff" stroke-width="3" opacity="0.3"/>
+  </g>
+  <g id="delta-chart">
+    <rect x="1410" y="360" width="300" height="240" rx="14" fill="#a5d6ff" opacity="0.08" stroke="#4a9eff" stroke-width="4"/>
+    <polyline points="1440,560 1490,500 1540,520 1590,440 1640,460 1680,400" fill="none" stroke="#00875a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="1440,560 1490,530 1540,545 1590,490 1640,510 1680,470" fill="none" stroke="#ff5630" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+  </g>
+  <!-- GRID PROTOCOL MANIFEST
+  template: Icon Banner
+  grid_cells_used: 0-15,0-8
+  font_sizes: []
+  min_font_size: n/a
+  text_elements: 0
+  palette_colors: [#ffffff, #4a9eff, #a5d6ff, #36b37e, #00875a, #ff5630, #ffab00]
+  -->
+</svg>

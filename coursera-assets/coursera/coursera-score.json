@@ -1,0 +1,611 @@
+{
+  "artifacts_dir": "/home/noah/src/databricks-data-engineering/coursera-assets/coursera",
+  "config_path": "/home/noah/src/resolve-pipeline/config/databricks_de.lua",
+  "timestamp": "2026-02-20T17:54:50Z",
+  "lesson_count": 8,
+  "artifact_count": 36,
+  "score": {
+    "composite_score": 99.0453509200456,
+    "grade": "A+",
+    "lesson_scores": [
+      [
+        "1.1",
+        {
+          "composite_score": 98.8,
+          "grade": "A+",
+          "dimensions": [
+            {
+              "name": "Completeness",
+              "weight": 25,
+              "raw_score": 100.0,
+              "weighted_score": 25.0,
+              "grade": "A+",
+              "rationale": "key-terms.md present, key-terms-banner.svg present, reflection.md present, reflection-banner.svg present"
+            },
+            {
+              "name": "Conformance",
+              "weight": 20,
+              "raw_score": 100.0,
+              "weighted_score": 20.0,
+              "grade": "A+",
+              "rationale": "H2 headings present: 1; Term definitions found: 5; Term count matches (5 per section); No first-person language; No speaker attribution; Definitions are standalone; Word count OK: 292"
+            },
+            {
+              "name": "Consistency",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "No first-person or attribution violations"
+            },
+            {
+              "name": "SVG Compliance",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "key-terms-banner.svg: OK; reflection-banner.svg: OK"
+            },
+            {
+              "name": "Content Quality",
+              "weight": 10,
+              "raw_score": 88.0,
+              "weighted_score": 8.8,
+              "grade": "B",
+              "rationale": "Definitions are standalone, All definitions have content, Reflection has 2 questions, Unexpanded acronyms: TABLE, DLT, ETL, SQL"
+            },
+            {
+              "name": "Metadata",
+              "weight": 10,
+              "raw_score": 100.0,
+              "weighted_score": 10.0,
+              "grade": "A+",
+              "rationale": "key-terms.md: 2 arXiv link(s), reflection.md: 2 arXiv link(s), 4 arXiv URL(s) verified"
+            },
+            {
+              "name": "Freshness",
+              "weight": 5,
+              "raw_score": 100.0,
+              "weighted_score": 5.0,
+              "grade": "A+",
+              "rationale": "File spread: 0s"
+            }
+          ],
+          "critical_defects": [],
+          "f_capped": false
+        }
+      ],
+      [
+        "1.2",
+        {
+          "composite_score": 98.5,
+          "grade": "A+",
+          "dimensions": [
+            {
+              "name": "Completeness",
+              "weight": 25,
+              "raw_score": 100.0,
+              "weighted_score": 25.0,
+              "grade": "A+",
+              "rationale": "key-terms.md present, key-terms-banner.svg present, reflection.md present, reflection-banner.svg present"
+            },
+            {
+              "name": "Conformance",
+              "weight": 20,
+              "raw_score": 100.0,
+              "weighted_score": 20.0,
+              "grade": "A+",
+              "rationale": "H2 headings present: 1; Term definitions found: 5; Term count matches (5 per section); No first-person language; No speaker attribution; Definitions are standalone; Word count OK: 292"
+            },
+            {
+              "name": "Consistency",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "No first-person or attribution violations"
+            },
+            {
+              "name": "SVG Compliance",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "key-terms-banner.svg: OK; reflection-banner.svg: OK"
+            },
+            {
+              "name": "Content Quality",
+              "weight": 10,
+              "raw_score": 85.0,
+              "weighted_score": 8.5,
+              "grade": "B",
+              "rationale": "Definitions are standalone, All definitions have content, Reflection has 1 questions, Unexpanded acronyms: DROP, FAIL, ID, OR, DLT"
+            },
+            {
+              "name": "Metadata",
+              "weight": 10,
+              "raw_score": 100.0,
+              "weighted_score": 10.0,
+              "grade": "A+",
+              "rationale": "key-terms.md: 2 arXiv link(s), reflection.md: 2 arXiv link(s), 4 arXiv URL(s) verified"
+            },
+            {
+              "name": "Freshness",
+              "weight": 5,
+              "raw_score": 100.0,
+              "weighted_score": 5.0,
+              "grade": "A+",
+              "rationale": "File spread: 0s"
+            }
+          ],
+          "critical_defects": [],
+          "f_capped": false
+        }
+      ],
+      [
+        "1.3",
+        {
+          "composite_score": 98.8,
+          "grade": "A+",
+          "dimensions": [
+            {
+              "name": "Completeness",
+              "weight": 25,
+              "raw_score": 100.0,
+              "weighted_score": 25.0,
+              "grade": "A+",
+              "rationale": "key-terms.md present, key-terms-banner.svg present, reflection.md present, reflection-banner.svg present"
+            },
+            {
+              "name": "Conformance",
+              "weight": 20,
+              "raw_score": 100.0,
+              "weighted_score": 20.0,
+              "grade": "A+",
+              "rationale": "H2 headings present: 1; Term definitions found: 5; Term count matches (5 per section); No first-person language; No speaker attribution; Definitions are standalone; Word count OK: 321"
+            },
+            {
+              "name": "Consistency",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "No first-person or attribution violations"
+            },
+            {
+              "name": "SVG Compliance",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "key-terms-banner.svg: OK; reflection-banner.svg: OK"
+            },
+            {
+              "name": "Content Quality",
+              "weight": 10,
+              "raw_score": 88.0,
+              "weighted_score": 8.8,
+              "grade": "B",
+              "rationale": "Definitions are standalone, All definitions have content, Reflection has 2 questions, Unexpanded acronyms: SLA, AM, CSV, DLT"
+            },
+            {
+              "name": "Metadata",
+              "weight": 10,
+              "raw_score": 100.0,
+              "weighted_score": 10.0,
+              "grade": "A+",
+              "rationale": "key-terms.md: 2 arXiv link(s), reflection.md: 2 arXiv link(s), 4 arXiv URL(s) verified"
+            },
+            {
+              "name": "Freshness",
+              "weight": 5,
+              "raw_score": 100.0,
+              "weighted_score": 5.0,
+              "grade": "A+",
+              "rationale": "File spread: 0s"
+            }
+          ],
+          "critical_defects": [],
+          "f_capped": false
+        }
+      ],
+      [
+        "2.1",
+        {
+          "composite_score": 98.5,
+          "grade": "A+",
+          "dimensions": [
+            {
+              "name": "Completeness",
+              "weight": 25,
+              "raw_score": 100.0,
+              "weighted_score": 25.0,
+              "grade": "A+",
+              "rationale": "key-terms.md present, key-terms-banner.svg present, reflection.md present, reflection-banner.svg present"
+            },
+            {
+              "name": "Conformance",
+              "weight": 20,
+              "raw_score": 100.0,
+              "weighted_score": 20.0,
+              "grade": "A+",
+              "rationale": "H2 headings present: 1; Term definitions found: 5; Term count matches (5 per section); No first-person language; No speaker attribution; Definitions are standalone; Word count OK: 267"
+            },
+            {
+              "name": "Consistency",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "No first-person or attribution violations"
+            },
+            {
+              "name": "SVG Compliance",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "key-terms-banner.svg: OK; reflection-banner.svg: OK"
+            },
+            {
+              "name": "Content Quality",
+              "weight": 10,
+              "raw_score": 85.0,
+              "weighted_score": 8.5,
+              "grade": "B",
+              "rationale": "Definitions are standalone, All definitions have content, Reflection has 1 questions, Unexpanded acronyms: JOIN, AS, TABLE, CSV, ACID"
+            },
+            {
+              "name": "Metadata",
+              "weight": 10,
+              "raw_score": 100.0,
+              "weighted_score": 10.0,
+              "grade": "A+",
+              "rationale": "key-terms.md: 2 arXiv link(s), reflection.md: 2 arXiv link(s), 4 arXiv URL(s) verified"
+            },
+            {
+              "name": "Freshness",
+              "weight": 5,
+              "raw_score": 100.0,
+              "weighted_score": 5.0,
+              "grade": "A+",
+              "rationale": "File spread: 0s"
+            }
+          ],
+          "critical_defects": [],
+          "f_capped": false
+        }
+      ],
+      [
+        "2.2",
+        {
+          "composite_score": 98.5,
+          "grade": "A+",
+          "dimensions": [
+            {
+              "name": "Completeness",
+              "weight": 25,
+              "raw_score": 100.0,
+              "weighted_score": 25.0,
+              "grade": "A+",
+              "rationale": "key-terms.md present, key-terms-banner.svg present, reflection.md present, reflection-banner.svg present"
+            },
+            {
+              "name": "Conformance",
+              "weight": 20,
+              "raw_score": 100.0,
+              "weighted_score": 20.0,
+              "grade": "A+",
+              "rationale": "H2 headings present: 1; Term definitions found: 5; Term count matches (5 per section); No first-person language; No speaker attribution; Definitions are standalone; Word count OK: 290"
+            },
+            {
+              "name": "Consistency",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "No first-person or attribution violations"
+            },
+            {
+              "name": "SVG Compliance",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "key-terms-banner.svg: OK; reflection-banner.svg: OK"
+            },
+            {
+              "name": "Content Quality",
+              "weight": 10,
+              "raw_score": 85.0,
+              "weighted_score": 8.5,
+              "grade": "B",
+              "rationale": "Definitions are standalone, All definitions have content, Reflection has 1 questions, Unexpanded acronyms: ID, DLT, ROW, EDA, JOIN"
+            },
+            {
+              "name": "Metadata",
+              "weight": 10,
+              "raw_score": 100.0,
+              "weighted_score": 10.0,
+              "grade": "A+",
+              "rationale": "key-terms.md: 2 arXiv link(s), reflection.md: 2 arXiv link(s), 4 arXiv URL(s) verified"
+            },
+            {
+              "name": "Freshness",
+              "weight": 5,
+              "raw_score": 100.0,
+              "weighted_score": 5.0,
+              "grade": "A+",
+              "rationale": "File spread: 0s"
+            }
+          ],
+          "critical_defects": [],
+          "f_capped": false
+        }
+      ],
+      [
+        "2.3",
+        {
+          "composite_score": 98.5,
+          "grade": "A+",
+          "dimensions": [
+            {
+              "name": "Completeness",
+              "weight": 25,
+              "raw_score": 100.0,
+              "weighted_score": 25.0,
+              "grade": "A+",
+              "rationale": "key-terms.md present, key-terms-banner.svg present, reflection.md present, reflection-banner.svg present"
+            },
+            {
+              "name": "Conformance",
+              "weight": 20,
+              "raw_score": 100.0,
+              "weighted_score": 20.0,
+              "grade": "A+",
+              "rationale": "H2 headings present: 1; Term definitions found: 5; Term count matches (5 per section); No first-person language; No speaker attribution; Definitions are standalone; Word count OK: 283"
+            },
+            {
+              "name": "Consistency",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "No first-person or attribution violations"
+            },
+            {
+              "name": "SVG Compliance",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "key-terms-banner.svg: OK; reflection-banner.svg: OK"
+            },
+            {
+              "name": "Content Quality",
+              "weight": 10,
+              "raw_score": 85.0,
+              "weighted_score": 8.5,
+              "grade": "B",
+              "rationale": "Definitions are standalone, All definitions have content, Reflection has 2 questions, Unexpanded acronyms: KPI, ETLT, CFO, BI, MAU"
+            },
+            {
+              "name": "Metadata",
+              "weight": 10,
+              "raw_score": 100.0,
+              "weighted_score": 10.0,
+              "grade": "A+",
+              "rationale": "key-terms.md: 2 arXiv link(s), reflection.md: 2 arXiv link(s), 4 arXiv URL(s) verified"
+            },
+            {
+              "name": "Freshness",
+              "weight": 5,
+              "raw_score": 100.0,
+              "weighted_score": 5.0,
+              "grade": "A+",
+              "rationale": "File spread: 0s"
+            }
+          ],
+          "critical_defects": [],
+          "f_capped": false
+        }
+      ],
+      [
+        "3.1",
+        {
+          "composite_score": 98.5,
+          "grade": "A+",
+          "dimensions": [
+            {
+              "name": "Completeness",
+              "weight": 25,
+              "raw_score": 100.0,
+              "weighted_score": 25.0,
+              "grade": "A+",
+              "rationale": "key-terms.md present, key-terms-banner.svg present, reflection.md present, reflection-banner.svg present"
+            },
+            {
+              "name": "Conformance",
+              "weight": 20,
+              "raw_score": 100.0,
+              "weighted_score": 20.0,
+              "grade": "A+",
+              "rationale": "H2 headings present: 1; Term definitions found: 5; Term count matches (5 per section); No first-person language; No speaker attribution; Definitions are standalone; Word count OK: 390"
+            },
+            {
+              "name": "Consistency",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "No first-person or attribution violations"
+            },
+            {
+              "name": "SVG Compliance",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "key-terms-banner.svg: OK; reflection-banner.svg: OK"
+            },
+            {
+              "name": "Content Quality",
+              "weight": 10,
+              "raw_score": 85.0,
+              "weighted_score": 8.5,
+              "grade": "B",
+              "rationale": "Definitions are standalone, All definitions have content, Reflection has 4 questions, Unexpanded acronyms: DLT, ON, DAG, AM, NOT"
+            },
+            {
+              "name": "Metadata",
+              "weight": 10,
+              "raw_score": 100.0,
+              "weighted_score": 10.0,
+              "grade": "A+",
+              "rationale": "key-terms.md: 2 arXiv link(s), reflection.md: 2 arXiv link(s), 4 arXiv URL(s) verified"
+            },
+            {
+              "name": "Freshness",
+              "weight": 5,
+              "raw_score": 100.0,
+              "weighted_score": 5.0,
+              "grade": "A+",
+              "rationale": "File spread: 0s"
+            }
+          ],
+          "critical_defects": [],
+          "f_capped": false
+        }
+      ],
+      [
+        "3.2",
+        {
+          "composite_score": 98.5,
+          "grade": "A+",
+          "dimensions": [
+            {
+              "name": "Completeness",
+              "weight": 25,
+              "raw_score": 100.0,
+              "weighted_score": 25.0,
+              "grade": "A+",
+              "rationale": "key-terms.md present, key-terms-banner.svg present, reflection.md present, reflection-banner.svg present"
+            },
+            {
+              "name": "Conformance",
+              "weight": 20,
+              "raw_score": 100.0,
+              "weighted_score": 20.0,
+              "grade": "A+",
+              "rationale": "H2 headings present: 1; Term definitions found: 5; Term count matches (5 per section); No first-person language; No speaker attribution; Definitions are standalone; Word count OK: 377"
+            },
+            {
+              "name": "Consistency",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "No first-person or attribution violations"
+            },
+            {
+              "name": "SVG Compliance",
+              "weight": 15,
+              "raw_score": 100.0,
+              "weighted_score": 15.0,
+              "grade": "A+",
+              "rationale": "key-terms-banner.svg: OK; reflection-banner.svg: OK"
+            },
+            {
+              "name": "Content Quality",
+              "weight": 10,
+              "raw_score": 85.0,
+              "weighted_score": 8.5,
+              "grade": "B",
+              "rationale": "Definitions are standalone, All definitions have content, Reflection has 2 questions, Unexpanded acronyms: PII, JAR, SQL, VP, DAG"
+            },
+            {
+              "name": "Metadata",
+              "weight": 10,
+              "raw_score": 100.0,
+              "weighted_score": 10.0,
+              "grade": "A+",
+              "rationale": "key-terms.md: 2 arXiv link(s), reflection.md: 2 arXiv link(s), 4 arXiv URL(s) verified"
+            },
+            {
+              "name": "Freshness",
+              "weight": 5,
+              "raw_score": 100.0,
+              "weighted_score": 5.0,
+              "grade": "A+",
+              "rationale": "File spread: 0s"
+            }
+          ],
+          "critical_defects": [],
+          "f_capped": false
+        }
+      ]
+    ],
+    "course_scores": [
+      {
+        "artifact": "outline.md",
+        "score": 100.0,
+        "grade": "A+",
+        "checks": [
+          "Module headings (H2): 5",
+          "Lesson headings (H3): 8",
+          "Word count: 867"
+        ],
+        "errors": []
+      },
+      {
+        "artifact": "1-roleplay.md",
+        "score": 100.0,
+        "grade": "A+",
+        "checks": [
+          "Scenario section present",
+          "Tasks found: 3",
+          "AI Persona section present",
+          "All 3 rubric levels present",
+          "No first-person language",
+          "No speaker attribution",
+          "Definitions are standalone",
+          "Word count OK: 696"
+        ],
+        "errors": []
+      },
+      {
+        "artifact": "2-roleplay.md",
+        "score": 100.0,
+        "grade": "A+",
+        "checks": [
+          "Scenario section present",
+          "Tasks found: 3",
+          "AI Persona section present",
+          "All 3 rubric levels present",
+          "No first-person language",
+          "No speaker attribution",
+          "Definitions are standalone",
+          "Word count OK: 822"
+        ],
+        "errors": []
+      },
+      {
+        "artifact": "3-roleplay.md",
+        "score": 100.0,
+        "grade": "A+",
+        "checks": [
+          "Scenario section present",
+          "Tasks found: 3",
+          "AI Persona section present",
+          "All 3 rubric levels present",
+          "No first-person language",
+          "No speaker attribution",
+          "Definitions are standalone",
+          "Word count OK: 1034"
+        ],
+        "errors": []
+      }
+    ],
+    "aggregation_method": "harmonic_mean"
+  }
+}

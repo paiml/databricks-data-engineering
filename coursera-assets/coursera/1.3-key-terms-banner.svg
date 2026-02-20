@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  <circle cx="300" cy="450" r="270" fill="#a5d6ff" opacity="0.06"/>
+  <circle cx="1600" cy="250" r="280" fill="#b8acff" opacity="0.05"/>
+  <circle cx="850" cy="800" r="190" fill="#ffab00" opacity="0.04"/>
+  <g id="stream">
+    <circle cx="360" cy="480" r="140" fill="#00c7e6" opacity="0.1" stroke="#00b8d9" stroke-width="5"/>
+    <path d="M290,445 Q325,405 360,445 Q395,485 430,445" fill="none" stroke="#00b8d9" stroke-width="6" stroke-linecap="round"/>
+    <path d="M300,485 Q330,450 360,485 Q390,520 420,485" fill="none" stroke="#00b8d9" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M310,525 Q335,495 360,525 Q385,555 410,525" fill="none" stroke="#00c7e6" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  </g>
+  <g id="upload">
+    <rect x="880" y="380" width="160" height="210" rx="14" fill="#a5d6ff" opacity="0.12" stroke="#4a9eff" stroke-width="4"/>
+    <polyline points="960,430 960,510" fill="none" stroke="#4a9eff" stroke-width="7" stroke-linecap="round"/>
+    <polyline points="925,460 960,425 995,460" fill="none" stroke="#4a9eff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="910" y1="550" x2="1010" y2="550" stroke="#4a9eff" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g id="table">
+    <rect x="1410" y="360" width="300" height="240" rx="16" fill="#a5d6ff" opacity="0.1" stroke="#4a9eff" stroke-width="5"/>
+    <rect x="1410" y="360" width="300" height="60" rx="16" fill="#4a9eff" opacity="0.15"/>
+    <rect x="1410" y="417" width="300" height="3" fill="#4a9eff" opacity="0.4"/>
+    <line x1="1510" y1="420" x2="1510" y2="600" stroke="#4a9eff" stroke-width="2" opacity="0.25"/>
+    <line x1="1610" y1="420" x2="1610" y2="600" stroke="#4a9eff" stroke-width="2" opacity="0.25"/>
+    <line x1="1410" y1="480" x2="1710" y2="480" stroke="#4a9eff" stroke-width="2" opacity="0.2"/>
+    <line x1="1410" y1="540" x2="1710" y2="540" stroke="#4a9eff" stroke-width="2" opacity="0.2"/>
+  </g>
+  <!-- GRID PROTOCOL MANIFEST
+  template: Icon Banner
+  grid_cells_used: 0-15,0-8
+  font_sizes: []
+  min_font_size: n/a
+  text_elements: 0
+  palette_colors: [#ffffff, #4a9eff, #00c7e6, #00b8d9, #a5d6ff, #b8acff, #ffab00]
+  -->
+</svg>

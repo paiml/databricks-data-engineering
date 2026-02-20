@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  <circle cx="360" cy="400" r="260" fill="#4a9eff" opacity="0.05"/>
+  <circle cx="1560" cy="380" r="270" fill="#36b37e" opacity="0.04"/>
+  <circle cx="900" cy="170" r="180" fill="#9f8fef" opacity="0.04"/>
+  <g id="network">
+    <circle cx="360" cy="430" r="40" fill="#4a9eff" opacity="0.15" stroke="#4a9eff" stroke-width="5"/>
+    <circle cx="260" cy="350" r="25" fill="#0056d2" opacity="0.12" stroke="#0056d2" stroke-width="4"/>
+    <circle cx="460" cy="350" r="25" fill="#0056d2" opacity="0.12" stroke="#0056d2" stroke-width="4"/>
+    <circle cx="260" cy="530" r="25" fill="#0056d2" opacity="0.12" stroke="#0056d2" stroke-width="4"/>
+    <circle cx="460" cy="530" r="25" fill="#0056d2" opacity="0.12" stroke="#0056d2" stroke-width="4"/>
+    <line x1="330" y1="405" x2="275" y2="370" stroke="#4a9eff" stroke-width="3" opacity="0.4"/>
+    <line x1="390" y1="405" x2="445" y2="370" stroke="#4a9eff" stroke-width="3" opacity="0.4"/>
+    <line x1="330" y1="455" x2="275" y2="510" stroke="#4a9eff" stroke-width="3" opacity="0.4"/>
+    <line x1="390" y1="455" x2="445" y2="510" stroke="#4a9eff" stroke-width="3" opacity="0.4"/>
+  </g>
+  <g id="magnifier-2">
+    <circle cx="940" cy="450" r="100" fill="#9f8fef" opacity="0.08" stroke="#9f8fef" stroke-width="5"/>
+    <line x1="1010" y1="520" x2="1080" y2="590" stroke="#9f8fef" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="940" cy="450" r="40" fill="none" stroke="#b8acff" stroke-width="3" opacity="0.3"/>
+  </g>
+  <g id="gear-chain">
+    <circle cx="1520" cy="430" r="70" fill="#36b37e" opacity="0.08" stroke="#00875a" stroke-width="5"/>
+    <circle cx="1520" cy="430" r="35" fill="none" stroke="#00875a" stroke-width="4"/>
+    <line x1="1520" y1="355" x2="1520" y2="375" stroke="#00875a" stroke-width="6" stroke-linecap="round"/>
+    <line x1="1520" y1="485" x2="1520" y2="505" stroke="#00875a" stroke-width="6" stroke-linecap="round"/>
+    <line x1="1445" y1="430" x2="1465" y2="430" stroke="#00875a" stroke-width="6" stroke-linecap="round"/>
+    <line x1="1575" y1="430" x2="1595" y2="430" stroke="#00875a" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="1630" cy="530" r="50" fill="#36b37e" opacity="0.06" stroke="#36b37e" stroke-width="4"/>
+    <circle cx="1630" cy="530" r="25" fill="none" stroke="#36b37e" stroke-width="3"/>
+    <line x1="1580" y1="490" x2="1565" y2="475" stroke="#30363d" stroke-width="3" opacity="0.3"/>
+  </g>
+  <!-- GRID PROTOCOL MANIFEST
+  template: Icon Banner
+  grid_cells_used: 0-15,0-8
+  font_sizes: []
+  min_font_size: n/a
+  text_elements: 0
+  palette_colors: [#ffffff, #4a9eff, #0056d2, #9f8fef, #b8acff, #36b37e, #00875a, #30363d]
+  -->
+</svg>

@@ -1,0 +1,34 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  <circle cx="360" cy="420" r="260" fill="#ffab00" opacity="0.06"/>
+  <circle cx="1560" cy="350" r="270" fill="#ff5630" opacity="0.04"/>
+  <circle cx="900" cy="170" r="180" fill="#4a9eff" opacity="0.04"/>
+  <g id="trophy">
+    <rect x="320" y="400" width="80" height="120" rx="8" fill="#ffab00" opacity="0.15" stroke="#f38b00" stroke-width="5"/>
+    <path d="M320,430 Q270,430 270,480 Q270,530 320,520" fill="none" stroke="#f38b00" stroke-width="5" stroke-linecap="round"/>
+    <path d="M400,430 Q450,430 450,480 Q450,530 400,520" fill="none" stroke="#f38b00" stroke-width="5" stroke-linecap="round"/>
+    <rect x="335" y="520" width="50" height="15" rx="4" fill="#f38b00" opacity="0.3"/>
+    <rect x="325" y="535" width="70" height="20" rx="6" fill="#ffab00" opacity="0.2" stroke="#f38b00" stroke-width="3"/>
+  </g>
+  <g id="rocket">
+    <path d="M960,360 Q980,340 960,300 Q940,340 960,360" fill="#ff5630" opacity="0.2" stroke="#ff5630" stroke-width="4"/>
+    <rect x="940" y="360" width="40" height="160" rx="20" fill="#ff5630" opacity="0.12" stroke="#ff5630" stroke-width="5"/>
+    <path d="M940,480 L920,530 L940,510" fill="#ffab00" opacity="0.3" stroke="#ffab00" stroke-width="3"/>
+    <path d="M1000,480 L1020,530 L1000,510" fill="#ffab00" opacity="0.3" stroke="#ffab00" stroke-width="3"/>
+    <circle cx="960" cy="410" r="12" fill="#ffffff" stroke="#ff5630" stroke-width="3"/>
+    <path d="M945,540 Q960,580 975,540" fill="none" stroke="#f38b00" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  </g>
+  <g id="flag">
+    <line x1="1520" y1="360" x2="1520" y2="600" stroke="#4a9eff" stroke-width="6" stroke-linecap="round"/>
+    <path d="M1520,380 L1660,410 L1520,460 Z" fill="#4a9eff" opacity="0.15" stroke="#4a9eff" stroke-width="4"/>
+    <circle cx="1520" cy="600" r="20" fill="#4a9eff" opacity="0.08" stroke="#4a9eff" stroke-width="3"/>
+  </g>
+  <!-- GRID PROTOCOL MANIFEST
+  template: Icon Banner
+  grid_cells_used: 0-15,0-8
+  font_sizes: []
+  min_font_size: n/a
+  text_elements: 0
+  palette_colors: [#ffffff, #ffab00, #f38b00, #ff5630, #4a9eff]
+  -->
+</svg>

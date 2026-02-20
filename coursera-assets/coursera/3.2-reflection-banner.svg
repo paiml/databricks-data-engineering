@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  <circle cx="360" cy="400" r="260" fill="#00c7e6" opacity="0.05"/>
+  <circle cx="1560" cy="380" r="280" fill="#ffab00" opacity="0.04"/>
+  <circle cx="900" cy="170" r="180" fill="#36b37e" opacity="0.04"/>
+  <g id="mountain">
+    <polygon points="240,580 360,350 480,580" fill="#00c7e6" opacity="0.1" stroke="#00b8d9" stroke-width="5" stroke-linejoin="round"/>
+    <polygon points="320,580 400,430 480,580" fill="#00b8d9" opacity="0.08"/>
+    <polyline points="360,350 380,380 360,390 390,420" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="420" cy="330" r="30" fill="#ffab00" opacity="0.15" stroke="#ffab00" stroke-width="3"/>
+  </g>
+  <g id="telescope">
+    <circle cx="960" cy="440" r="80" fill="#9f8fef" opacity="0.08" stroke="#9f8fef" stroke-width="4"/>
+    <rect x="930" y="440" width="120" height="30" rx="15" fill="#9f8fef" opacity="0.15" stroke="#9f8fef" stroke-width="4" transform="rotate(-30 960 440)"/>
+    <circle cx="1020" cy="400" r="35" fill="#b8acff" opacity="0.1" stroke="#9f8fef" stroke-width="4"/>
+    <line x1="940" y1="520" x2="920" y2="570" stroke="#9f8fef" stroke-width="5" stroke-linecap="round"/>
+    <line x1="980" y1="520" x2="1000" y2="570" stroke="#9f8fef" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g id="path-road">
+    <path d="M1440,580 Q1500,500 1520,480 Q1560,440 1580,440 Q1620,440 1660,400 Q1700,360 1700,340" fill="none" stroke="#36b37e" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1440,580 Q1500,500 1520,480 Q1560,440 1580,440 Q1620,440 1660,400 Q1700,360 1700,340" fill="none" stroke="#7ee787" stroke-width="3" stroke-linecap="round" stroke-dasharray="12 8" opacity="0.5"/>
+    <circle cx="1700" cy="340" r="15" fill="#00875a" opacity="0.3" stroke="#00875a" stroke-width="4"/>
+    <polygon points="1700,310 1710,330 1690,330" fill="#00875a" opacity="0.5"/>
+  </g>
+  <!-- GRID PROTOCOL MANIFEST
+  template: Icon Banner
+  grid_cells_used: 0-15,0-8
+  font_sizes: []
+  min_font_size: n/a
+  text_elements: 0
+  palette_colors: [#ffffff, #00c7e6, #00b8d9, #ffab00, #9f8fef, #b8acff, #36b37e, #7ee787, #00875a]
+  -->
+</svg>

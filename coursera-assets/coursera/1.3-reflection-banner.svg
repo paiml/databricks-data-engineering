@@ -1,0 +1,33 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  <circle cx="340" cy="420" r="270" fill="#00c7e6" opacity="0.06"/>
+  <circle cx="1580" cy="340" r="260" fill="#36b37e" opacity="0.04"/>
+  <circle cx="900" cy="160" r="180" fill="#ffab00" opacity="0.04"/>
+  <g id="wave-flow">
+    <path d="M220,400 Q290,320 360,400 Q430,480 500,400" fill="none" stroke="#00b8d9" stroke-width="7" stroke-linecap="round"/>
+    <path d="M220,470 Q290,390 360,470 Q430,550 500,470" fill="none" stroke="#00c7e6" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M220,530 Q290,460 360,530 Q430,600 500,530" fill="none" stroke="#00c7e6" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+    <polyline points="470,370 500,400 470,430" fill="none" stroke="#00b8d9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g id="clock">
+    <circle cx="960" cy="470" r="120" fill="#ffab00" opacity="0.08" stroke="#ffab00" stroke-width="5"/>
+    <line x1="960" y1="470" x2="960" y2="390" stroke="#f38b00" stroke-width="6" stroke-linecap="round"/>
+    <line x1="960" y1="470" x2="1030" y2="500" stroke="#f38b00" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="960" cy="470" r="8" fill="#f38b00"/>
+    <circle cx="960" cy="355" r="5" fill="#ffab00" opacity="0.5"/>
+    <circle cx="1075" cy="470" r="5" fill="#ffab00" opacity="0.5"/>
+    <circle cx="960" cy="585" r="5" fill="#ffab00" opacity="0.5"/>
+    <circle cx="845" cy="470" r="5" fill="#ffab00" opacity="0.5"/>
+  </g>
+  <g id="puzzle">
+    <path d="M1460,400 L1560,400 Q1560,370 1590,370 Q1620,370 1620,400 L1660,400 L1660,500 Q1630,500 1630,530 Q1630,560 1660,560 L1660,600 L1460,600 L1460,560 Q1490,560 1490,530 Q1490,500 1460,500 Z" fill="#36b37e" opacity="0.12" stroke="#00875a" stroke-width="5" stroke-linejoin="round"/>
+  </g>
+  <!-- GRID PROTOCOL MANIFEST
+  template: Icon Banner
+  grid_cells_used: 0-15,0-8
+  font_sizes: []
+  min_font_size: n/a
+  text_elements: 0
+  palette_colors: [#ffffff, #00c7e6, #00b8d9, #ffab00, #f38b00, #36b37e, #00875a]
+  -->
+</svg>

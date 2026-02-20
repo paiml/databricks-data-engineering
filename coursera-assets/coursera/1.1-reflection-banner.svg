@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  <circle cx="380" cy="400" r="260" fill="#ffab00" opacity="0.05"/>
+  <circle cx="1550" cy="380" r="280" fill="#a5d6ff" opacity="0.06"/>
+  <circle cx="900" cy="750" r="180" fill="#b8acff" opacity="0.04"/>
+  <g id="lightbulb">
+    <circle cx="360" cy="430" r="100" fill="#ffab00" opacity="0.12" stroke="#ffab00" stroke-width="5"/>
+    <line x1="360" y1="330" x2="360" y2="290" stroke="#f38b00" stroke-width="6" stroke-linecap="round"/>
+    <line x1="290" y1="380" x2="265" y2="355" stroke="#f38b00" stroke-width="5" stroke-linecap="round"/>
+    <line x1="430" y1="380" x2="455" y2="355" stroke="#f38b00" stroke-width="5" stroke-linecap="round"/>
+    <rect x="335" y="530" width="50" height="30" rx="6" fill="#ffab00" opacity="0.2" stroke="#f38b00" stroke-width="3"/>
+    <line x1="340" y1="570" x2="380" y2="570" stroke="#f38b00" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g id="nodes">
+    <circle cx="920" cy="420" r="35" fill="#4a9eff" opacity="0.15" stroke="#4a9eff" stroke-width="5"/>
+    <circle cx="1040" cy="350" r="30" fill="#9f8fef" opacity="0.15" stroke="#9f8fef" stroke-width="5"/>
+    <circle cx="1060" cy="510" r="28" fill="#00875a" opacity="0.15" stroke="#00875a" stroke-width="5"/>
+    <circle cx="860" cy="540" r="25" fill="#ff5630" opacity="0.12" stroke="#ff5630" stroke-width="4"/>
+    <line x1="950" y1="405" x2="1015" y2="365" stroke="#30363d" stroke-width="3" opacity="0.3"/>
+    <line x1="940" y1="445" x2="1040" y2="495" stroke="#30363d" stroke-width="3" opacity="0.3"/>
+    <line x1="900" y1="445" x2="870" y2="520" stroke="#30363d" stroke-width="3" opacity="0.3"/>
+    <line x1="1045" y1="380" x2="1055" y2="485" stroke="#30363d" stroke-width="3" opacity="0.3"/>
+  </g>
+  <g id="compass">
+    <circle cx="1560" cy="470" r="120" fill="#a5d6ff" opacity="0.08" stroke="#4a9eff" stroke-width="5"/>
+    <line x1="1560" y1="360" x2="1560" y2="580" stroke="#4a9eff" stroke-width="3" opacity="0.3"/>
+    <line x1="1450" y1="470" x2="1670" y2="470" stroke="#4a9eff" stroke-width="3" opacity="0.3"/>
+    <polygon points="1560,380 1575,460 1560,450 1545,460" fill="#ff5630" opacity="0.4"/>
+    <polygon points="1560,560 1545,480 1560,490 1575,480" fill="#4a9eff" opacity="0.3"/>
+    <circle cx="1560" cy="470" r="10" fill="#4a9eff" opacity="0.5"/>
+  </g>
+  <!-- GRID PROTOCOL MANIFEST
+  template: Icon Banner
+  grid_cells_used: 0-15,0-8
+  font_sizes: []
+  min_font_size: n/a
+  text_elements: 0
+  palette_colors: [#ffffff, #4a9eff, #a5d6ff, #ffab00, #f38b00, #9f8fef, #00875a, #ff5630, #b8acff, #30363d]
+  -->
+</svg>

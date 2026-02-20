@@ -1,0 +1,36 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#ffffff"/>
+  <circle cx="370" cy="400" r="260" fill="#9f8fef" opacity="0.05"/>
+  <circle cx="1560" cy="380" r="280" fill="#00c7e6" opacity="0.04"/>
+  <circle cx="900" cy="160" r="180" fill="#ffab00" opacity="0.04"/>
+  <g id="thought">
+    <circle cx="360" cy="430" r="120" fill="#9f8fef" opacity="0.1" stroke="#9f8fef" stroke-width="5"/>
+    <circle cx="300" cy="570" r="25" fill="#b8acff" opacity="0.15" stroke="#9f8fef" stroke-width="3"/>
+    <circle cx="260" cy="610" r="15" fill="#b8acff" opacity="0.12" stroke="#9f8fef" stroke-width="2"/>
+    <circle cx="340" cy="410" r="8" fill="#9f8fef" opacity="0.3"/>
+    <circle cx="370" cy="440" r="8" fill="#9f8fef" opacity="0.3"/>
+    <circle cx="390" cy="410" r="8" fill="#9f8fef" opacity="0.3"/>
+  </g>
+  <g id="layers-insight">
+    <path d="M860,520 L960,470 L1060,520 L960,570 Z" fill="#ffab00" opacity="0.15" stroke="#ffab00" stroke-width="4"/>
+    <path d="M860,480 L960,430 L1060,480 L960,530 Z" fill="#f38b00" opacity="0.12" stroke="#f38b00" stroke-width="4"/>
+    <path d="M860,440 L960,390 L1060,440 L960,490 Z" fill="#ff5630" opacity="0.1" stroke="#ff5630" stroke-width="4"/>
+  </g>
+  <g id="book">
+    <rect x="1440" y="380" width="110" height="200" rx="8" fill="#00c7e6" opacity="0.1" stroke="#00b8d9" stroke-width="4"/>
+    <rect x="1570" y="380" width="110" height="200" rx="8" fill="#00c7e6" opacity="0.1" stroke="#00b8d9" stroke-width="4"/>
+    <line x1="1560" y1="370" x2="1560" y2="590" stroke="#00b8d9" stroke-width="6" stroke-linecap="round"/>
+    <line x1="1470" y1="430" x2="1530" y2="430" stroke="#00b8d9" stroke-width="3" opacity="0.3"/>
+    <line x1="1470" y1="460" x2="1530" y2="460" stroke="#00b8d9" stroke-width="3" opacity="0.3"/>
+    <line x1="1590" y1="430" x2="1650" y2="430" stroke="#00b8d9" stroke-width="3" opacity="0.3"/>
+    <line x1="1590" y1="460" x2="1650" y2="460" stroke="#00b8d9" stroke-width="3" opacity="0.3"/>
+  </g>
+  <!-- GRID PROTOCOL MANIFEST
+  template: Icon Banner
+  grid_cells_used: 0-15,0-8
+  font_sizes: []
+  min_font_size: n/a
+  text_elements: 0
+  palette_colors: [#ffffff, #9f8fef, #b8acff, #ffab00, #f38b00, #ff5630, #00c7e6, #00b8d9]
+  -->
+</svg>

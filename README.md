@@ -28,6 +28,7 @@
 - [Course Outline](#course-outline)
 - [Project Structure](#project-structure)
 - [Resources](#resources)
+- [Coursera Marketing Assets](#coursera-marketing-assets)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -122,6 +123,44 @@ databricks-data-engineering/
 ├── labs/                        # Hands-on lab instructions
 ├── docs/                        # Course outline and capstone
 └── tmp/                         # Original pipeline files (reference)
+```
+
+---
+
+## Coursera Marketing Assets
+
+This course is published on Coursera as part of the **Enterprise AI and Data Engineering with Databricks**
+specialization. Marketing assets are generated using the
+[resolve-pipeline](https://github.com/noahgift/resolve-pipeline) toolkit's Coursera slash commands.
+
+### Generated Assets
+
+| Asset | File | Description |
+|-------|------|-------------|
+| Landing page | `coursera-page.md` | Course name, description, FAQs, skill tags |
+| About | `about-this-course.md` | Instructor bios, course structure, prerequisites |
+| Next steps | `next-steps.md` | Follow-on course recommendations |
+| Image prompts | `image-prompts.md` | Text prompts for AI image generators |
+| Marketing banner | `marketing-image.svg` | 1200×600 course hero banner |
+| Logo | `logo-image.svg` | 1000×1000 square course logo |
+| Module banners | `module-{1,2,3}-banner.svg` | 1920×1080 per-module banners |
+| Key terms | `{M.L}.0-key-terms.md` + SVG | 5 key terms per lesson with icon banner |
+| Reflections | `{M.L}-reflection.md` + SVG | Key points, scenarios, journal prompt per lesson |
+| Specialization | `specialization/coursera-specialization.md` | Specialization landing page |
+
+### Regenerating Assets
+
+From the `resolve-pipeline` directory:
+
+```bash
+# All assets use these common arguments:
+#   config:     config/databricks_de.lua
+#   source-dir: ~/src/databricks-data-engineering/coursera-assets/output
+#   output-dir: /tmp/coursera-out
+
+/coursera-page config/databricks_de.lua ~/src/databricks-data-engineering/coursera-assets/output /tmp/coursera-out
+/coursera-keyterms config/databricks_de.lua ~/src/databricks-data-engineering/coursera-assets/output /tmp/coursera-out
+/coursera-reflection config/databricks_de.lua ~/src/databricks-data-engineering/coursera-assets/output /tmp/coursera-out
 ```
 
 ---

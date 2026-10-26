@@ -7,6 +7,7 @@
 import dlt
 from pyspark.sql.functions import current_timestamp
 
+
 @dlt.table(
     comment="Raw wine data ingested from CSV files"
 )

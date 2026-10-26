@@ -7,6 +7,7 @@
 import dlt
 from pyspark.sql.functions import col, regexp_replace, trim
 
+
 @dlt.table(
     name="wine_bronze",
     comment="Raw wine data ingested from volume"

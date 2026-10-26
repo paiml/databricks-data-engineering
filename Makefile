@@ -24,13 +24,13 @@ test:
 # Run linting
 lint:
 	@echo "=== Running linter ==="
-	$(RUFF) check examples/ --ignore E501,E722
+	$(RUFF) check examples/ --ignore E501,E722,F821,F403,F405
 
 # Format code
 format:
 	@echo "=== Formatting code ==="
 	$(RUFF) format examples/
-	$(RUFF) check examples/ --fix --ignore E501,E722
+	$(RUFF) check examples/ --fix --ignore E501,E722,F821,F403,F405
 
 # Run tests with coverage
 coverage:

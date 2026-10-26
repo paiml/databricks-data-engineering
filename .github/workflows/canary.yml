@@ -1,0 +1,35 @@
+# Weekly check that the learner steps still work on the latest runner images.
+name: canary
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  learner-check:
+    name: learner-check (${{ matrix.os }})
+    timeout-minutes: 15
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.12"
+      - uses: actions/cache@v6.1.0
+        with:
+          path: ~/.cache/pip
+          key: canary-${{ runner.os }}-ruff-0.14.1
+      - name: Install ruff (README)
+        run: python3 -m pip install ruff==0.14.1
+      - name: Lint
+        run: ruff check examples/
+      - name: Compile every example
+        run: python3 -m compileall -q examples

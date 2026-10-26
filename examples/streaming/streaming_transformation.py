@@ -6,7 +6,11 @@
 # The paths reference /Volumes/workspace/default/ which may differ in your setup.
 
 import dlt
-from pyspark.sql.types import *
+from pyspark.sql import SparkSession
+from pyspark.sql.types import IntegerType, StringType, StructField, StructType
+
+# Databricks runs this file with an active session; getOrCreate() returns it.
+spark = SparkSession.builder.getOrCreate()
 
 # Define the schema
 customer_schema = StructType([

@@ -3,7 +3,8 @@
 # Requires the silver layer from bronze.py to be running in the same pipeline.
 
 import dlt
-from pyspark.sql.functions import col, count, avg
+from pyspark.sql.functions import avg, col, count
+
 
 @dlt.table(name="wine_gold_top_rated",
                table_properties={"quality": "gold"}

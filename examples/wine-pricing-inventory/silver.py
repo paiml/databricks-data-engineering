@@ -5,6 +5,7 @@
 import dlt
 from pyspark.sql.functions import col
 
+
 @dlt.table(
     comment="Cleaned wine catalog"
 )

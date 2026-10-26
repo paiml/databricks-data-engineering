@@ -6,6 +6,7 @@
   </a>
 </p>
 
+[![CI](https://github.com/paiml/databricks-data-engineering/actions/workflows/ci.yml/badge.svg)](https://github.com/paiml/databricks-data-engineering/actions/workflows/ci.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](LICENSE)
 [![Databricks](https://img.shields.io/badge/Databricks-Delta%20Live%20Tables-red)](https://docs.databricks.com/en/delta-live-tables/index.html)
@@ -56,6 +57,24 @@ Learn to build production data pipelines using Databricks. This course covers:
 3. Upload example files from `examples/` to your Databricks workspace
 4. Create a Delta Live Tables pipeline and point it to the uploaded file
 5. Run the pipeline
+
+### Check the examples locally (optional)
+
+The pipelines run inside Databricks. To lint and compile them on your own machine, install Python 3.10 or newer and `ruff`, then run the same checks CI runs.
+
+**Linux (Ubuntu)**
+```bash
+python3 -m pip install ruff==0.14.1
+ruff check examples/
+python3 -m compileall -q examples
+```
+
+**macOS**
+```bash
+python3 -m pip install ruff==0.14.1
+ruff check examples/
+python3 -m compileall -q examples
+```
 
 > **Important:** All example files reference `/Volumes/workspace/default/` for data paths. You must update these paths to match your own workspace volume configuration.
 

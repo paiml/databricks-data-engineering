@@ -1,0 +1,47 @@
+# The `gate` check the paiml org ruleset requires on main.
+#
+# The examples are Delta Live Tables pipelines that run inside Databricks, so
+# CI checks what a learner can check locally: every example compiles and the
+# linter is clean. All jobs run on GitHub-hosted ubuntu-24.04 with pinned
+# tool versions. `gate` needs every other job.
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: lint
+    timeout-minutes: 15
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.12.7"
+      - uses: actions/cache@v6.1.0
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ runner.os }}-ruff-0.14.1
+      - name: Install ruff (README, Linux)
+        run: python3 -m pip install ruff==0.14.1
+      - name: Lint
+        run: ruff check examples/
+      - name: Compile every example
+        run: python3 -m compileall -q examples
+
+  gate:
+    name: gate
+    runs-on: ubuntu-24.04
+    if: ${{ always() }}
+    needs: [lint]
+    steps:
+      - name: All jobs must succeed
+        run: |
+          test "${{ needs.lint.result }}" = success

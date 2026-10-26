@@ -5,7 +5,11 @@
 # The paths reference /Volumes/workspace/default/raw/inventory/ which may differ in your setup.
 
 import dlt
+from pyspark.sql import SparkSession
 from pyspark.sql.functions import current_timestamp
+
+# Databricks runs this file with an active session; getOrCreate() returns it.
+spark = SparkSession.builder.getOrCreate()
 
 
 @dlt.table(

@@ -34,8 +34,7 @@ target-version = "py310"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "W"]
-# F821/F403/F405: `spark` and the dlt runtime are injected by Databricks, not imported.
-ignore = ["E501", "E722", "F821", "F403", "F405"]
+ignore = ["E501", "E722"]
 
 [tool.mypy]
 python_version = "3.10"

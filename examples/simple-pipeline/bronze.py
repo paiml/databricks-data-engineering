@@ -5,7 +5,11 @@
 # The path references /Volumes/workspace/default/raw/ which may differ in your setup.
 
 import dlt
+from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, regexp_replace, trim
+
+# Databricks runs this file with an active session; getOrCreate() returns it.
+spark = SparkSession.builder.getOrCreate()
 
 
 @dlt.table(
